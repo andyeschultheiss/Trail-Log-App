@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "webpack --mode development --watch ./trail_log_app/frontend/src/index.js --output ./trail_log_app/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./trail_log_app/frontend/src/index.js --output ./trail_log_app/frontend/static/frontend/main.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "keywords": [],
   "author": "",
