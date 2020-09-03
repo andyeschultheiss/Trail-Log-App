@@ -1,1 +1,1 @@
-web: gunicorn wsgi.py
+web: gunicorn trail_log_app.wsgi --log-file -
