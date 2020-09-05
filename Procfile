@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT trail_log_app.trail_log_app.wsgi:application
+web: waitress --port=$PORT trail_log_app.trail_log_app.wsgi:application
