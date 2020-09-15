@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'trails',
+    'trail_log_app.trails',
     'rest_framework',
     'frontend',
     'knox',
