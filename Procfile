@@ -1,1 +1,1 @@
-web: PYTHONPATH=$(pwd) waitress-serve --port=$PORT trail_log_app.trail_log_app.wsgi:application
+web: PYTHONPATH=$(pwd)'/trail_log_app/' waitress-serve --port=$PORT trail_log_app.wsgi:application
