@@ -41,12 +41,15 @@ export class Form extends Component {
                     </div>
                     <div className="form-group">
                         <label>Difficulty</label>
-                        <input
-                         className="form-control"
-                         type="text"
-                         name="difficulty"
-                         onChange={this.onChange}
-                         value={difficulty}/>
+                        <br></br>
+                        <input type="radio" value="E" id="easy"
+                        onChange={this.onChange} name="difficulty" /> <label for="easy">&nbsp;Easy</label>
+                        <br></br>
+                        <input type="radio" value="M" id="moderate"
+                        onChange={this.onChange} name="difficulty" /> <label for="moderate">&nbsp;Moderate</label>
+                        <br></br>
+                        <input type="radio" value="D" id="difficult"
+                        onChange={this.onChange} name="difficulty" /> <label for="difficult">&nbsp;Difficult</label>
                     </div>
                     <div className="form-group">
                         <label>Length (miles)</label>

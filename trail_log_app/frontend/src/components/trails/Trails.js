@@ -21,7 +21,6 @@ export class Trails extends Component {
                 <table className="table table-striped">
                     <thead>
                         <tr>
-                            <th>ID</th>
                             <th>Name</th>
                             <th>Difficulty</th>
                             <th>Length (mi)</th>
@@ -32,7 +31,6 @@ export class Trails extends Component {
                     <tbody>
                         {this.props.trails.map(trail => (
                             <tr key={trail.id}>
-                               <td>{trail.id}</td> 
                                <td><a href={trail.oregon_hikers_link}>{trail.name}</a></td> 
                                <td>{trail.difficulty}</td> 
                                <td>{trail.length}</td> 
